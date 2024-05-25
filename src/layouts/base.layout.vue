@@ -63,7 +63,7 @@ const tools = computed<ToolCategory[]>(() => [
           <div>
             IT-Tools
 
-            <c-link target="_blank" rel="noopener" :href="`https://github.com/CorentinTh/it-tools/tree/v${version}`">
+            <c-link target="_blank" rel="noopener" :href="`https://github.com/NanKoYo/it-tools/tree/v${version}`">
               v{{ version }}
             </c-link>
 
@@ -82,7 +82,7 @@ const tools = computed<ToolCategory[]>(() => [
           <div>
             © {{ new Date().getFullYear() }}
             <c-link target="_blank" rel="noopener" href="https://github.com/NanKoYo">
-              Corentin Thomasset
+              NanKoYo,Inc
             </c-link>
           </div>
         </div>
