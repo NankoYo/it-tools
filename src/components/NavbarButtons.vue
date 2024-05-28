@@ -11,7 +11,7 @@ const { isDarkTheme } = toRefs(styleStore);
     <c-button
       circle
       variant="text"
-      href="https://github.com/NanKoYo/it-tools"
+      href="https://github.com/NanKoYo-Inc"
       target="_blank"
       rel="noopener noreferrer"
       :aria-label="$t('home.nav.githubRepository')"
@@ -24,7 +24,7 @@ const { isDarkTheme } = toRefs(styleStore);
     <c-button
       circle
       variant="text"
-      href="https://twitter.com/NanKoYo"
+      href="https://x.com/NanKoYo"
       rel="noopener"
       target="_blank"
       :aria-label="$t('home.nav.twitterAccount')"
