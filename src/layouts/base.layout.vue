@@ -73,7 +73,7 @@ const tools = computed<ToolCategory[]>(() => [
                 target="_blank"
                 rel="noopener"
                 type="primary"
-                :href="`https://github.com/NanKoYo/it-tools/tree/${commitSha}`"
+                :href="`https://github.com/NanKoYo-Inc/it-tools/tree/${commitSha}`"
               >
                 {{ commitSha }}
               </c-link>
