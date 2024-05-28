@@ -34,7 +34,7 @@ const { isDarkTheme } = toRefs(styleStore);
   </c-tooltip>
 
   <c-tooltip :tooltip="$t('home.nav.about')" position="bottom">
-    <c-button circle variant="text" to="Https://nankoyo.com/about" :aria-label="$t('home.nav.aboutLabel')">
+    <c-button circle variant="text" to="https://nankoyo.com/about" :aria-label="$t('home.nav.aboutLabel')">
       <n-icon size="25" :component="InfoCircle" />
     </c-button>
   </c-tooltip>
